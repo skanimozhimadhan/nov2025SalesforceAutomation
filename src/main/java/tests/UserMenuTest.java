@@ -30,7 +30,7 @@ import utils.ReportUtils;
 public class UserMenuTest extends BaseTest{
 	
 	
-	//@Test
+	@Test
 	public void userMenu_TC05() throws InterruptedException {
 		WebDriver driver =  BaseTest.getBrowser();
 		ExtentTest test = ReportUtils.getTest();
@@ -47,7 +47,7 @@ public class UserMenuTest extends BaseTest{
 		
 	}
 
-	//@Test
+	@Test
 	public void myProfile_TC06() throws InterruptedException {
 		WebDriver driver =  BaseTest.getBrowser();
 		ExtentTest test = ReportUtils.getTest();
@@ -105,7 +105,7 @@ public class UserMenuTest extends BaseTest{
 		Assert.assertTrue(setting2.verifyActivityandReminder(driver),"Sample Reminder is opened");
 	}
 
-	//@Test
+	@Test
 	public void mySettings_TC008(){
 		WebDriver driver =  BaseTest.getBrowser();
 		ExtentTest test = ReportUtils.getTest();
@@ -120,7 +120,7 @@ public class UserMenuTest extends BaseTest{
 		 
 	}
 	
-	//@Test
+	@Test
 	public void mySettings_TC009(){
 		WebDriver driver =  BaseTest.getBrowser();
 		ExtentTest test = ReportUtils.getTest();

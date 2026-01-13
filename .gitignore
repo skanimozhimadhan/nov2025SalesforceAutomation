@@ -1,0 +1,9 @@
+git branch -M main
+/target
+/test-output
+/src/main/resources/logs
+/src/main/resources/screenshots
+/.
+.project
+.settings
+

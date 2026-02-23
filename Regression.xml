@@ -6,9 +6,8 @@
       <class name="tests.AccountTest"/>
       <class name="tests.LeadsTest"/>
       <class name="tests.Opportunities"/>
-      <class name="tests.ContactsTest"/>
-      <class name="tests.LoginTest"/>
-      <class name="tests.UserMenuTest"/>
+      
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Regression -->

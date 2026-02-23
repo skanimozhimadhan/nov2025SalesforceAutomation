@@ -14,7 +14,9 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+
 import com.salesforce.oauth.SalesforceAuth;
+
 import utils.ReportUtils;
 
 public class BaseTest {
